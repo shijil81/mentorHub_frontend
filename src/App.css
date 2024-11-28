@@ -1,0 +1,171 @@
+
+.custom{
+    border: 1px solid #B772FF; /* Custom border color */
+    color: #080808; /* Text color matches the border */
+    background-color: transparent; /* Transparent background initially */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.custom:hover {
+    background-image: linear-gradient(#B671FF, #FF8DA6);
+    color: white; /* Text color on hover */
+    border-color: #B772FF; /* Ensure the border stays the same color */
+}
+
+.custom-bt{
+    border: none;
+    background-image: linear-gradient(#B671FF, #FF8DA6); /* The gradient colors */
+    color: white;
+    
+}
+/* login page login button style */
+.custom-lg{
+    border: 2px solid #B772FF; /* Custom border color */
+    color: #080808; /* Text color matches the border */
+    background-image: linear-gradient(rgb(2, 88, 2), rgb(118, 246, 118));
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.custom-lg:hover {
+    background-image: linear-gradient(#B671FF, #FF8DA6);
+    color: rgb(1, 119, 1); /* Text color on hover */
+    border: 2px solid #0c7e02; /* Custom border color */
+}
+/* Register page register button style */
+.custom-rg{
+    border: 2px solid #B772FF; /* Custom border color */
+    color: white; /* Text color matches the border */
+    background-image: linear-gradient(rgb(10, 10, 177), rgb(22, 107, 225));
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.custom-rg:hover{
+    background-image: linear-gradient(#B671FF, #FF8DA6);
+    color: blue; /* Text color on hover */
+    border: 2px solid #020a81; /* Custom border color */
+}
+/* user profile page button */
+.custom-cr{
+    background-image: linear-gradient(#58fc66, #127502);
+    color:white; /* Text color on hover */
+    
+}
+
+.custom-cr:hover{
+    background-image: linear-gradient(#f4daf5, #897b8a);
+    color:black; /* Text color on hover */
+    
+}
+
+
+
+.mentor-section {
+    border: 5px dashed #D070D6;
+    border-radius: 100px;
+    overflow: hidden; /* Ensure content stays within border */
+  }
+
+
+  
+  .mentor-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  /* Background colors */
+  .purple-bg {
+    background-color: #A567D1;
+    position: relative;
+  overflow: hidden; 
+  width: 100%;
+  height: 100%;
+  }
+  
+  .pink-bg {
+    background-color: #FF8DAF;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    height: 100%;
+  }
+  
+ 
+  
+  /* Adjust the center curve */
+  .rounded-top-left {
+    border-top-left-radius: 90px; /* Adjust this for more rounding */
+    border-bottom-right-radius: 100px;
+  }
+  
+  .rounded-top-right {
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 100px;
+  }
+  
+  .rounded-bottom-left {
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 100px;
+  }
+  
+  .rounded-bottom-right {
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 100px;
+  }
+  
+ 
+/* MentorView profile design */
+  .corner-design{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .corner-design::before,
+  .corner-design::after{
+    content: '';
+    position: absolute;
+    background-color: #ffd700;
+    border-radius: 50%;
+  }
+
+  .corner-design::before {
+    top: -100px;
+    left: -100px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .corner-design::after {
+    bottom: -120px;
+    right: -90px;
+    width: 300px;
+    height: 300px;
+    background-color: #0066ff; /* Color for the bottom-right shape */
+  }
+
+  .scrollable-container {
+    height: 400px;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+  }
+  
+  /* Hide scrollbar for WebKit-based browsers (Chrome, Safari) */
+  .scrollable-container::-webkit-scrollbar {
+    display: none;
+    
+  }
+  
+  .scrollable-container-recent {
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+  }
+  
+  /* Hide scrollbar for WebKit-based browsers (Chrome, Safari) */
+  .scrollable-container-recent::-webkit-scrollbar {
+    display: none;
+  }
